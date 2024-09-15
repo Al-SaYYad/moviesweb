@@ -47,7 +47,9 @@ function App() {
 
   return (
     <div className="font color-body">
-      <NavBar search={search} />
+      <BrowserRouter basename="/">
+        <NavBar search={search} />
+      </BrowserRouter>
       <Container>
         <BrowserRouter basename="/">
           <Routes>
