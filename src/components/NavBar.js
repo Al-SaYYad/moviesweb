@@ -17,7 +17,7 @@ const NavBar = ({ search }) => {
       <Container>
         <Row className="nav-row align-items-center container">
           <Col md="4" xs="5" lg="3" className="">
-            <a href="/" className="logo-link">
+            <a href="/" className="logo-link" basename="/">
               <h1 className="logo-name">movieweb</h1>
             </a>
           </Col>

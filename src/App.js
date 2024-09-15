@@ -49,7 +49,7 @@ function App() {
     <div className="font color-body">
       <NavBar search={search} />
       <Container>
-        <BrowserRouter basename="/moviesweb">
+        <BrowserRouter basename="/">
           <Routes>
             <Route
               path="/"
